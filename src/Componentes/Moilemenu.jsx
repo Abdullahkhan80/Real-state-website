@@ -9,10 +9,10 @@ const Moilemenu = ({setMobileMenu}) => {
                 <ImCross  />
                 </div>
                 <ul className="  flex flex-col gap-3 text-2xl">
-                    <li><a href="#" className="text-gray-300 hover:text-white">Home</a></li>
-                    <li><a href="#" className="text-gray-300 hover:text-white">About</a></li>
-                    <li><a href="#" className="text-gray-300 hover:text-white">Services</a></li>
-                    <li><a href="#" className="text-gray-300 hover:text-white">Contact</a></li>
+                    <li><a onClick={()=>setMobileMenu(false)} href="#"  className="text-gray-300 hover:text-white">Home</a></li>
+                    <li><a onClick={()=>setMobileMenu(false)} href="#" className="text-gray-300 hover:text-white">About</a></li>
+                    <li><a onClick={()=>setMobileMenu(false)} href="#" className="text-gray-300 hover:text-white">Services</a></li>
+                    <li><a onClick={()=>setMobileMenu(false)} href="#" className="text-gray-300 hover:text-white">Contact</a></li>
                 </ul>
                 <button className='hidden md:block bg-gray-300 px-6 py-2 rounded-3xl '> sign up</button>
             </div>
